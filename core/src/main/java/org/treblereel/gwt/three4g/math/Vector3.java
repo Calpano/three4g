@@ -349,6 +349,8 @@ public class Vector3 implements Vector {
      */
     public native Vector3 lerpVectors(Vector3 v1, Vector3 v2, float alpha);
 
+    public native Vector3 project( Camera camera );
+
     /**
      * Inverts this vector - i.e. sets x = -x, y = -y and z = -z.
      *
