@@ -4,7 +4,7 @@
         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.treblereel.gwt.three4g</groupId>
+    <groupId>de.xam</groupId>
     <artifactId>three4g-demo</artifactId>
     <version>0.108-SNAPSHOT</version>
     <packaging>war</packaging>
@@ -56,14 +56,14 @@
 
 
         <dependency>
-            <groupId>org.treblereel.gwt</groupId>
+            <groupId>de.xam</groupId>
             <artifactId>three4g</artifactId>
             <version>${three4g.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.treblereel.gwt</groupId>
+            <groupId>de.xam</groupId>
             <artifactId>three4g-extensions</artifactId>
             <version>${three4g.version}</version>
             <scope>provided</scope>

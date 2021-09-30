@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.treblereel.gwt</groupId>
+        <groupId>de.xam</groupId>
         <artifactId>three4g-parent</artifactId>
         <version>0.109-SNAPSHOT</version>
         <relativePath>..</relativePath>
@@ -17,6 +17,11 @@
     <url>https://github.com/treblereel</url>
 
     <developers>
+        <developer>
+            <id>xamde</id>
+            <name>Max Völkel</name>
+            <email>dev@xam.de</email>
+        </developer>
         <developer>
             <id>treblereel</id>
             <name>Dmitrii Tikhomirov</name>
@@ -90,12 +95,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.treblereel.gwt</groupId>
+            <groupId>de.xam</groupId>
             <artifactId>three4g</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.treblereel.gwt</groupId>
+            <groupId>de.xam</groupId>
             <artifactId>three4g-annotations</artifactId>
             <version>${project.version}</version>
             <scope>provided</scope>

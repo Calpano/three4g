@@ -2,16 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.treblereel.gwt</groupId>
+    <!-- forked from 'org.treblereel.gwt' -->
+    <groupId>de.xam</groupId>
     <artifactId>three4g-parent</artifactId>
     <version>0.109-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>three4g-parent</name>
-    <description>Three.js JsInterop based library for GWT</description>
+    <description>Three.js JsInterop based library for GWT, forked from 'org.treblereel.gwt'</description>
     <url>https://github.com/treblereel</url>
 
     <developers>
+        <developer>
+            <id>xamde</id>
+            <name>Max Völkel</name>
+            <email>dev@xam.de</email>
+        </developer>
         <developer>
             <id>treblereel</id>
             <name>Dmitrii Tikhomirov</name>

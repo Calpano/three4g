@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.treblereel.gwt</groupId>
+	<groupId>de.xam</groupId>
 	<artifactId>hello-three4g</artifactId>
 	<version>0.109-SNAPSHOT</version>
 
@@ -21,6 +21,11 @@
 	</properties>
 
 	<developers>
+		<developer>
+			<id>xamde</id>
+			<name>Max Völkel</name>
+			<email>dev@xam.de</email>
+		</developer>
 		<developer>
 			<id>haui</id>
 			<name>Bernhard Haumacher</name>
@@ -118,7 +123,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.treblereel.gwt</groupId>
+			<groupId>de.xam</groupId>
 			<artifactId>three4g</artifactId>
 			<version>${three4g.version}</version>
 			<scope>provided</scope>
